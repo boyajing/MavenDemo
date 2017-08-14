@@ -12,6 +12,10 @@ public class Demo
     public Demo() {
     }
 
+    public Demo(String name) {
+        this.name = name;
+    }
+
     public Demo(String name, String password) {
         this.name = name;
         this.password = password;
